@@ -7,24 +7,24 @@
     <div class="col-md-6">
       <div class="text-center">
         <h3 class="u">Redeem Prize</h3>
-        <h5 class="text-white">Prize: #{{$PrizeID}}</h5>
-        <h5 class="text-white">Reward: {{$K1Reward}}</h5>
+        <h5 class="text-white">Prize: #<?php echo e($PrizeID); ?></h5>
+        <h5 class="text-white">Reward: <?php echo e($K1Reward); ?></h5>
       </div>
-      <input type="hidden" name="id" value="{{$PrizeID}}"/>
-      <input type="hidden" name="UserUID" value="{{$UserUID}}"/>
-      <input type="hidden" name="K1Reward" value="{{$K1Reward}}"/>
+      <input type="hidden" name="id" value="<?php echo e($PrizeID); ?>"/>
+      <input type="hidden" name="UserUID" value="<?php echo e($UserUID); ?>"/>
+      <input type="hidden" name="K1Reward" value="<?php echo e($K1Reward); ?>"/>
     </div>
   </div>
 
   <div class="row m_b_10">
     <div class="text-center">
-        @if (count($data['rewards']->validateKills($PrizeID)) == 0)
+        <?php if(count($data['rewards']->validateKills($PrizeID)) == 0): ?>
           <button type="button" class="btn gradient color-white" id="send_prize_submit">
             Redeem <i class="fa fa-send"></i>
           </button>
-        @else
+        <?php else: ?>
           You already redeemed this Prize!
-        @endif
+        <?php endif; ?>
       </div>
   </div>
 </form>
@@ -46,3 +46,4 @@
 		});
 	});
 </script>
+<?php /**PATH C:\laragon\www\originals\public\resources\jquery\addons\ajax\site\pvpRewards/redeem.blade.php ENDPATH**/ ?>
