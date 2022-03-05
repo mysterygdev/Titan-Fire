@@ -1,0 +1,9 @@
+.env
+.idea/
+.vscode/
+node_modules/
+vendor/
+phpcs.xml
+server.js
+features-to-add-list.txt
+phpcs.xml

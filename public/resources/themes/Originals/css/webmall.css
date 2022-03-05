@@ -1,0 +1,63 @@
+.img-border{
+	display:inline;
+}
+
+.img-border1{
+	display:inline;
+	margin-left:10px;
+}
+
+.Hot{
+	border:2px dashed red;
+}
+.Promo{
+	border:2px dashed purple;
+}
+.New{
+	border:2px dashed green;
+}
+
+.img-special{
+	display:inline;
+	padding:5px 5px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:14px;
+	font-family:"Marcellus SC", serif;
+	box-shadow: 0 0 6px;
+	margin-right:2px;
+	float:right;
+	color:#fff;
+}
+
+.img-special1{
+	display:inline;
+	padding:5px 5px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:14px;
+	font-family:"Marcellus SC", serif;
+	box-shadow: 0 0 6px;
+	margin-left:3px;
+	color:#fff;
+}
+
+.img-special.special-Hot{
+	background:red;
+}
+.img-special.special-Promo{
+	background:purple;
+}
+.img-special.special-New{
+	background:green;
+}
+
+.img-special1.special-Hot{
+	background:red;
+}
+.img-special1.special-Promo{
+	background:purple;
+}
+.img-special1.special-New{
+	background:green;
+}

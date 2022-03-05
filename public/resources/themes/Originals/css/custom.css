@@ -1,0 +1,73 @@
+/*-------------------------------------------------------------------
+[Custom Stylesheet]
+
+Author:		[Dev]Velocity
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+
+	1. Bootstrap Styles
+    2. Custom CSS
+        2.1 Sidebar
+        2.2 Buttons
+
+    Add Custom CSS here
+
+-------------------------------------------------------------------*/
+
+/* 1. Bootstrap CSS */
+
+/* 2. Custom CSS */
+
+/* 2.1 Sidebar */
+
+.content-sidebar{
+    width:300px;
+    text-align:center;
+    margin-top:20px;
+}
+
+.content-sidebar-p{
+    width:300px;
+    text-align:center;
+    margin-top:20px;
+    position:absolute;
+    left:20px;
+}
+
+.sidebar-title{
+    border-bottom:1px solid #c4ae78;
+}
+
+.sidebar-card{
+    background-color:#29221c;
+    box-shadow:0 2px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+	min-width: 0;
+	word-wrap: break-word;
+	color: #fff;
+	margin: 0 auto;
+	width: auto;
+	margin-bottom: 5%;
+}
+
+/* 2.2 Buttons */
+
+.btn-orig{
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.35);
+    background-image: linear-gradient(to bottom, #b93a27, #9e1e0b);
+	background-image: -webkit-linear-gradient(top, #b93a27, #9e1e0b);
+    color: #f3aa55;
+    font-size: 18px;
+    padding: 4px 8px;
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+    border: 1px solid #b93a27;
+}
+
+.btn-orig:hover{
+    background:grey;
+}
+
+.badge{display:inline-block;padding:.25em .4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25rem}a.badge:focus,a.badge:hover{text-decoration:none}.badge:empty{display:none}.btn .badge{position:relative;top:-1px}.badge-pill{padding-right:.6em;padding-left:.6em;border-radius:10rem}.badge-primary{color:#fff;background-color:#007bff}a.badge-primary:focus,a.badge-primary:hover{color:#fff;background-color:#0062cc}.badge-secondary{color:#fff;background-color:#6c757d}a.badge-secondary:focus,a.badge-secondary:hover{color:#fff;background-color:#545b62}.badge-success{color:#fff;background-color:#28a745}a.badge-success:focus,a.badge-success:hover{color:#fff;background-color:#1e7e34}.badge-info{color:#fff;background-color:#17a2b8}a.badge-info:focus,a.badge-info:hover{color:#fff;background-color:#117a8b}.badge-warning{color:#212529;background-color:#ffc107}a.badge-warning:focus,a.badge-warning:hover{color:#212529;background-color:#d39e00}.badge-danger{color:#fff;background-color:#dc3545}a.badge-danger:focus,a.badge-danger:hover{color:#fff;background-color:#bd2130}.badge-light{color:#212529;background-color:#f8f9fa}a.badge-light:focus,a.badge-light:hover{color:#212529;background-color:#dae0e5}.badge-dark{color:#fff;background-color:#343a40}a.badge-dark:focus,a.badge-dark:hover{color:#fff;background-color:#1d2124}
+
