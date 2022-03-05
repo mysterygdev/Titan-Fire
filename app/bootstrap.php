@@ -192,7 +192,7 @@ class Bootstrap
         define('CONFIG', $this->loader->config('config'));
         define('DIRS', $this->loader->config('dirs'));
         define('DONATE', $this->loader->config('donate'));
-        define('DB', $this->loader->config('database'));
+        define('DB', $this->loader->config('database', 'mixed/main'));
         define('MAIL', $this->loader->config('mail'));
         define('MAPS', $this->loader->config('maps'));
         define('PAYPAL', $this->loader->config('paypal'));

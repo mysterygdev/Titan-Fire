@@ -7,4 +7,12 @@
         'instagram' => '',
         'twitch' => '',
         'youtube' => '',
+        'downloads' => [
+            'client' => [
+                ''
+            ],
+            'patch' => [
+                ''
+            ]
+        ]
     ];
