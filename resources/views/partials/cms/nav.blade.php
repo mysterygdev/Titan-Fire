@@ -25,7 +25,6 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="/community/discord/">Discord</a></li>
             <li><a href="/community/news/">News</a></li>
             <li><a href="/community/patchnotes/">Patch Notes</a></li>
             <li><a href="/community/rankings/">PvP Rankings</a></li>
